@@ -1,0 +1,57 @@
+name: chief_khalil
+description: A new Flutter application.
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  intl:
+  intl_translation:
+  cupertino_icons: ^1.0.0
+  scoped_model:
+  flutter_svg: ^0.19.1
+  responsive_framework:
+  get_storage:
+  http:
+  url_launcher:
+  get:
+  rxdart:
+  lottie:
+  youtube_player_flutter: ^8.0.0
+  pin_entry_text_field:
+  pin_code_text_field:
+  pin_code_fields:
+  chewie:
+  webview_flutter:
+  video_player:
+  expansion_tile_card:
+  shared_preferences:
+  splashscreen:
+  flare_flutter:
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.8.0
+flutter_icons:
+  android: true
+  image_path: "assets/khalil.jpg"
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - icons/
+
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
